@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dispositivo_id: 1
+  marca: MyString
+  quantidade_posicao: 1
+  total_km: 1.5
+
+two:
+  dispositivo_id: 1
+  marca: MyString
+  quantidade_posicao: 1
+  total_km: 1.5

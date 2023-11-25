@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Última Localização do Dispositivo</title>
+</head>
+<body>
+  <h1>Última Localização do Dispositivo</h1>
+  <% if @ultima_localizacao %>
+    <p>Latitude: <%= @ultima_localizacao.latitude %></p>
+    <p>Longitude: <%= @ultima_localizacao.longitude %></p>
+    <p>Timestamp: <%= @ultima_localizacao.timestamp %></p>
+  <% else %>
+    <p>Nenhuma localização encontrada.</p>
+  <% end %>
+</body>
+</html>
